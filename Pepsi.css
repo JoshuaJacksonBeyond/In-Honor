@@ -1,0 +1,49 @@
+html, body, div, p {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}  
+body {
+    min-height: 100vh;
+    padding: 10px; 
+    background-color: #dfdfdf;
+}
+#Something {
+    margin: 0 auto;
+    padding: 5px 125px 0;
+}
+.Separate-div {
+    width: 55px;
+    height: 1px;
+    background: #000000;
+    margin-bottom: 10px;
+}
+.inStock {
+    background-color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#clickMe {
+    display: inline-block;
+    padding: 10px;
+    font-family: Helvetica;
+    border-radius: 3px;
+    border: solid 1px;
+}  
+#clickMe:hover {
+    cursor: pointer;
+}
+.darkMode {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+.darkMode .Separate-div {
+    background-color: #ffffff;
+}
+.darkMode .inStock {
+    background-color: #4f4f4f;
+}
